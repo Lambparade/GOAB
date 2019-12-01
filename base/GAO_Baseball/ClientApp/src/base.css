@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+div .GridLayout {
+    background-color: black;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns:  20% 20% 20% 20% 20%;
+    grid-template-areas:
+     "Header Header Header Header Header"
+      "LeftSidePane LeftSidePane  RightSidePane RightSidePane RightSidePane";
+}
+
+div .GridHeader {
+    grid-area: Header;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+div .GridLeftSidePane {
+    grid-area: LeftSidePane;
+    background-color: blue;
+    padding:200px;
+    overflow:auto;
+}
+
+div .GridRightSidePane {
+    grid-area: RightSidePane;
+    background-color: Yellow;
+    padding: 110px
+}

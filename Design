@@ -1,0 +1,20 @@
+Playerlist:
+Needs to gold a collection of Records
+
+Records will be a button with A name of a player
+
+when clicked the player will be shown in the Player editor - this state tranfer could be handled by redux or passed back to base controller.
+
+When button is pressed the color will change and be different than any other records.
+
+Records will be displayed in aplhabetical order. This will be done by the controller most likely.
+
+Player record:
+Player record will be an object that holds all data needed for a player
+
+Name:String
+League:(Object Fields American league/National leage : Booleans)
+Postion:(Object Fields OF/IF/P/RP/C  : Booleans)
+Ratings(object encapsulating all years as int values)
+Manager type(Object Fields: A , C, B : Booleans)
+Comments:String
