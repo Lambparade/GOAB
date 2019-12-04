@@ -10,6 +10,16 @@ export default class Mock_PlayerListService {
         playerList.push(TestPlayer.CreatePlayer("Ben Eater"));
         playerList.push(TestPlayer.CreatePlayer("Dave Burger"));
         playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
+        playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
+        playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
+        playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
+        playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
+        playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
+        playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
+        playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
+        playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
+        playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
+        playerList.push(TestPlayer.CreatePlayer("Connor Rules"));
 
         return playerList;
     }
