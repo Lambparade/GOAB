@@ -1,29 +1,30 @@
-body{
+body {
     background-color: white;
 }
+
 div .GridLayout {
     background-color: black;
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns:  20% 20% 20% 20% 20%;
-    grid-template-areas:
-     "Header Header Header Header Header"
-      "LeftSidePane LeftSidePane  RightSidePane RightSidePane RightSidePane";
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas: "Header Header Header Header Header" "LeftSidePane LeftSidePane  RightSidePane RightSidePane RightSidePane";
+    max-height: 100vh;
+    max-width: 100vw;
 }
 
 div .GridHeader {
     grid-area: Header;
     background-color: lightblue;
-    padding: 20px;
     text-align: center;
     font-size: large;
     font-style: italic;
 }
+
 div .GridLeftSidePane {
     grid-area: LeftSidePane;
     background-color: blue;
-    height:100%;
-    padding:200px;
+    max-height: 100%;
+    max-width: 100%;
     overflow-y: scroll;
 }
 
