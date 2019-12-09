@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Mock_PlayerListService from '../../Services/Mock_PlayerListService';
 import Player from '../../Models/Player';
 import PlayerIndex from './PlayerIndexButton';
-import './List.css';
+import './PlayerList.css';
 
 interface Props {
     handlePlayerClick(input: string): void;

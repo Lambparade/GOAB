@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import './List.css';
+import './PlayerList.css';
 
 interface Props {
     playerName:string;
@@ -21,7 +21,7 @@ export default class PlayerIndexButton extends Component<Props> {
     render() {
         return (
             <div>
-                <button onClick={this.HandleClick}>{this.props.playerName}</button>
+                <button className="IndexButton" onClick={this.HandleClick}>{this.props.playerName}</button>
             </div>
         );
     }
